@@ -1,0 +1,144 @@
+.itinerary-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.itinerary-content {
+  display: flex;
+  gap: 3rem;
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.itinerary-form-section {
+  flex: 1;
+  padding: 2rem;
+}
+
+.itinerary-title {
+  font-size: 2rem;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.itinerary-subtitle {
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+.itinerary-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #86b8ed;
+}
+
+.itinerary-form input {
+  width: 100%;
+  padding: 0.75rem 1rem 0.75rem 2.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.itinerary-form input:focus {
+  outline: none;
+  border-color: #86b8ed;
+  box-shadow: 0 0 0 3px rgba(134, 184, 237, 0.2);
+}
+
+.submit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: #86b8ed;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+  background: #6da1d6;
+}
+
+.error-message {
+  color: #dc2626;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.itinerary-image-section {
+  flex: 1;
+  position: relative;
+  background: #f3f4f6;
+  min-height: 600px;
+}
+
+.planning-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  right: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  flex: 1;
+}
+
+.feature-card i {
+  font-size: 1.5rem;
+  color: #86b8ed;
+  margin-bottom: 0.5rem;
+}
+
+.feature-card h3 {
+  font-size: 0.875rem;
+  color: #1f2937;
+}

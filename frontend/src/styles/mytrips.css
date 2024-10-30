@@ -1,0 +1,50 @@
+.my-trips-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .my-trips-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .itinerary-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .itinerary-list li {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    padding: 15px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .itinerary-list li:hover {
+    transform: translateY(-3px);
+    background-color: #e6e6e6;
+  }
+  
+  .itinerary-list h2 {
+    font-size: 1.75rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .itinerary-list p {
+    font-size: 1.25rem;
+    color: #555;
+  }
+  
+  .no-itineraries {
+    font-size: 1.5rem;
+    color: #777;
+    margin-top: 40px;
+  }
+  
